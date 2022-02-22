@@ -1,0 +1,117 @@
+</!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>IncHub PLK- Digital Hub</title>
+    <meta name="name" content="IncHub PLK">
+    <meta name="description" content="Limpopo's best digital hub, we offer solutions and services in digital media marketing, software development and e-sports."/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel = "icon" type = "images/png" href = "images/logo.png">
+    <script src="https://kit.fontawesome.com/a3b2c4476f.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+<nav>
+    <a href="index.html"><img src="images/logo.png"></a>
+    <div class="nav-links" id="navLinks">
+    <i class="fa fa-times" onclick="hideMenu()"></i>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<h1>Contact Us</h1>
+</section>
+
+
+<section class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29181.53112513362!2d29.44857683201021!3d-23.900559658980736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec6d9b7be0bf37f%3A0x4d50ff392ab0a3df!2sIncHub%20Polokwane!5e0!3m2!1sen!2sza!4v1629887677119!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+</section>
+
+
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>142 Hillary Drive</h5>
+                    <p>Bendor, Polokwane</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+27 61 477 5152</h5>
+                    <p>Monday to Saturday, 8am - 6PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>hello@hub.co.za</h5>
+                    <p>Email us your Query</p>
+                </span>
+            </div>
+
+        </div>
+        <div class="contact-col">
+            <form action="https://formspree.io/f/mdobgbdj" method="POST">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter Your Email Address" required>
+                <input type="text" name="subject" placeholder="Enter Your Subject/Query" required>
+                <textarea rows="10" name="message" placeholder="Message" required></textarea>
+                <button href="index" type="submit" class="heross-btn">Send Message</button>
+            </form>
+
+        </div>
+    </div>
+</section>
+
+<!--Facilities-->
+
+
+<!--Testimonials-->
+
+
+<!--Call to action-->
+<section class="cta">
+    <h1> #Inside With Some Of The Best Digital Minds<br>SA Has On Offer</h1>
+</section>
+
+<!--footer-->
+<section class="footer">
+    <h4>About us </h4>
+    <p>IncHub Polokwane is a digital media cooporate offering solutions and services in digital media markering, software and <br>electronic through inhouse collaboration by member startups and entrepreneurs.</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/insidegovPLK/" class="fab fa-facebook"></a>
+        <a href="https://twitter.com/inchubplk" class="fab fa-twitter"></a>
+        <a href="https://www.instagram.com/insidegov/" class="fab fa-instagram"></a>
+        <a href="https://www.youtube.com/channel/UCs5d3-VbpH_hWz4AaN3TLBA" class="fab fa-youtube"></a>
+    </div>
+    <p>Made with <i class="fas fa-heart"></i> By IncHub Polokwane</p>
+</section>
+
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+</script>
+</body>
+</html>

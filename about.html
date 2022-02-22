@@ -1,0 +1,125 @@
+</!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>IncHub PLK- Digital Hub</title>
+    <meta name="name" content="IncHub PLK">
+    <meta name="description" content="Limpopo's best digital hub, we offer solutions and services in digital media marketing, software development and e-sports."/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel = "icon" type = "images/png" href = "images/logo.png">
+    <script src="https://kit.fontawesome.com/a3b2c4476f.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+<nav>
+    <a href="index.html"><img src="images/logo.png"></a>
+    <div class="nav-links" id="navLinks">
+    <i class="fa fa-times" onclick="hideMenu()"></i>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<h1>About Us</h1>
+</section>
+
+<!--Course-->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1 id="names"></h1>
+            <p id="demo"></p>
+             
+            <dl>
+                 <dt id="Project1">My City Android Application</dt>
+                 <dd id="Bio1">- This software looks to usher in a new kind of marketing approach, targeted and cost effective to the early startup. Focus is set on identifying the early adopter and investor, while creating a digital story that is concise and guides the startup or entrepreneur from early development to a fully working business or enitity</dd>
+                 <a href="https://play.google.com/store/apps/details?id=com.codeincsa.mycitizan" class="hero-btn red-btn">View Link</a>
+
+                 <dt id="Project1">Mlab Limpopo Enterprise Development Cohort</dt>
+                <dd id="Bio2">- The first alumni's of Mlab limpopo, our entity formed a part of the first ever cohort Mlab facilitated in the province with the creation of our My City software solution</dd>
+            </dl> 
+
+             <a href="https://youtu.be/X9CwEKtNI5E" class="hero-btn red-btn">View Link</a>
+
+             <dt id="Project1">Mlab Limpopo Agritour Cohort</dt>
+                <dd id="Bio3">- This was a agriculture and tourism sector focused cohort and our team including our TUT interns for the year had begun work on the BookingPal software solution, a tourism based travel now pay later solution that is still in development</dd>
+            </dl> 
+
+             <a href="#coming soon" class="hero-btn red-btn">Coming Soon</a>
+
+             <dt id="Project1">Redbull Campus Clutch Pop Up Partners</dt>
+                <dd id="Bio4">- Through the Campus Clutch, Redbull hosts a global e-sports tournament every year pitting together the best Valorant college/university teams against each other. We were tasked in Partnership with redbull to host their Limpopo Pop-up with them. </dd>
+            </dl> 
+
+             <a href="https://youtu.be/N7fnbQbTIR8" class="hero-btn red-btn">View Link</a>
+
+        </div>
+        <div class="about-col">
+            <img src="images/about.png">
+        </div>
+    </div>
+    <div>
+        
+    </div>
+</section>
+
+<!--Call to action-->
+<section class="cta">
+    <h1> #Inside With Some Of The Best Digital Minds<br>SA Has On Offer</h1>
+    <a href="contact.html" class="hero-btn">Contact Us</a>
+</section>
+
+<!--footer-->
+<section class="footer">
+    <h4>About us </h4>
+    <p>IncHub Polokwane is a digital media cooporate offering solutions and services in digital media markering, software and <br>electronic through inhouse collaboration by member startups and entrepreneurs.</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/insidegovPLK/" class="fab fa-facebook"></a>
+        <a href="https://twitter.com/inchubplk" class="fab fa-twitter"></a>
+        <a href="https://www.instagram.com/insidegov/" class="fab fa-instagram"></a>
+        <a href="https://www.youtube.com/channel/UCs5d3-VbpH_hWz4AaN3TLBA" class="fab fa-youtube"></a>
+    </div>
+    <p>Made with <i class="fas fa-heart"></i> By IncHub Polokwane</p>
+</section>
+
+
+<script>
+
+let person = "I am a self taught Android Fullstack Developer and founder of IncHub polokwane, a digital media cohort based in Limpopo, Polokwane, we make software, do digital media marketing and offer electronic sport services too.";
+let answer = 'Founded 2018';
+
+document.getElementById("demo").innerHTML =
+person + "<br>" + answer;
+
+    let Name; 
+    Name = "Mpho Mashego";
+    document.getElementById('names').innerHTML = Name;
+
+    let About; 
+    About = "About Me";
+    document.getElementById('About').innerHTML = About;
+
+    let inchubplk; 
+    inchubplk = "IncHub Polokwane is a digital media cooporate offering solutions and services in digital media markering, software and <br>electronic through inhouse collaboration by member startups and entrepreneurs.";
+    document.getElementById('inchubplk').innerHTML = inchubplk;
+
+
+    
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+</script>
+</body>
+</html>
